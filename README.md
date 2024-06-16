@@ -1,1 +1,2 @@
-# A para leitura de imagem
+# A para leitura de imagem 2
+;;;

@@ -1,1 +1,1 @@
-# aplicacaoAPI
+# A para leitura de imagem

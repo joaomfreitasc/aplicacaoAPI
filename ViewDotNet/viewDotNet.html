@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analise de imagem</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Serviço de analise de imagem do Azure Computer Vision</h1>
+    <label for="imageInput">Selecione a imagem:</label>
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="analyzeImage()">Analisar imagem</button>
+    <div id="results">
+        <h2>Caracteristicas da imagem</h2>
+        <table id="tagsTable">
+            <thead>
+                <tr>
+                    <th>Característica</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="viewjsDotNet.js"></script>
+</body>
+</html>
